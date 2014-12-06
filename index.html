@@ -1,144 +1,132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-	<title>Divinux</title>
-	<meta http-equiv="content-type" content = "text/html;charset=utf-8" />
-	
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'/>
-	
-	<style type="text/css">
-<!--
-body
-{
-margin:0;
-padding:0;
-text-align:center;
-}
-body,td,th 
-{
-	font-family: "Yanone Kaffeesatz", "Open Sans", sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-}
- table.center 
- {
-    margin-left:auto; 
-    margin-right:auto;
-  }
-#bottomshadow,  #bottomshadow2{
-    background-image: url("images/bgLine.png");
-}
-#upshadow {
-    background-image: url("images/bg_LineBot.png");
-}
-#rightshadow {
-    background-image: url("images/bg_lineRight.png");
-	width:20px;
-}
-#botrightshadow {
-    background-image: url("images/bg_bottomright.png");
-}
--->
-</style>
-
-</head>
-
-<body>
-
-     <!--..upper 3 column table.-->
-<table width="100%" border="0" cellpadding="0" style="background-color: #CCCCCC" >
-  <tr>
-    <th scope="col">&nbsp;</th>
-    <th scope="col" style="width:400px"><a href="index.html"><img src="images/logo.png" width="400" height="150" alt="logo_Divinux.tk" /></a></th>
-    <th scope="col" style="width:100px"><a href="2dart.html"><img src="images/but_2d_dark.png" onmouseover="this.src='images/but_2d_lit.png'" onmouseout="this.src='images/but_2d_dark.png'" alt="2D_Art"/></a></th>
-    <th scope="col" style="width:100px"><a href="3dart.html"><img src="images/but_3d_dark.png" onmouseover="this.src='images/but_3d_lit.png'" onmouseout="this.src='images/but_3d_dark.png'" alt="3D_Art"/></a></th>
-    <th scope="col" style="width:100px"><a href="source.html"><img src="images/but_source_dark.png" onmouseover="this.src='images/but_source_lit.png'" onmouseout="this.src='images/but_source_dark.png'" alt="Source"/></a></th>
-    <th scope="col" style="width:100px"><a href="contact.html"><img src="images/but_contact_dark.png" onmouseover="this.src='images/but_contact_lit.png'" onmouseout="this.src='images/but_contact_dark.png'" alt="Contact"/></a></th>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
-
-<!--..upper 1 column table.-->
-<table width="100%" border="0" cellpadding="0" id="bottomshadow">
- <tr>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
-
-
-<!--.content table-->
-<table width="800" border="0" cellpadding="0" cellspacing="0" class="center">
-<tr>
-    <td><table width="800" border="0" cellpadding="1" cellspacing="1" style="background-color: #CCCCCC">
-      <tr>
-        <td><table width="800" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF">
-          <tr>
-            <td>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Unity Web Player | IdleTower</title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<script type="text/javascript">
+		<!--
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 900, 
+				height: 600,
+				params: { enableDebugging:"0" }
+				
+			};
+			config.params["disableContextMenu"] = true;
+			var u = new UnityObject2(config);
 			
-				<p>&nbsp;</p>
-				<!--.inside table-->
-				<table width="780" border="0" cellspacing="0" cellpadding="0" class="center">
-				  <tr>
-				  
-				    <th scope="row"><a href="2dart.html"><img src="images/big2dart.png" width="380" height="200" alt="2dArt" /></a></th>
-				    <td style=" text-align: right"><a href="2dart.html"><img src="images/big3dart.png" width="380" height="200" alt="3dArt" /></a></td>
-					
-				    </tr>
-					  <tr>
-				  
-				    <th scope="row"></th>
-				    <td style=" text-align: right"></td>
-					
-				    </tr>
-				  <tr>
-				  
-				    <th scope="row"><a href="source.html"><img src="images/big_source.png" width="380" height="200" alt="SourceCode" /></a></th>
-				    <td style=" text-align: right"><a href="contact.html"><img src="images/big_contact.png" width="380" height="200" alt="Contact" /></a></td>
-					
-				    </tr>
-				  </table>
-				 
-				<p>&nbsp;</p>
-			</td>
-          </tr>
-        </table></td>
-      </tr>
-    </table></td>
-    <td id = "rightshadow">&nbsp;</td>
-  </tr>
-  <tr>
-    <td id = "bottomshadow2">&nbsp;</td>
-    <td id = "botrightshadow">&nbsp;</td>
-  </tr>
-</table>
+			jQuery(function() {
 
+				var $missingScreen = jQuery("#unityPlayer").find(".missing");
+				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
 
-<!--..bottom 1 column table.-->
-
-<table width="100%" border="0" cellpadding="0" id = "upshadow">
-  <tr>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
- <!--..bottom 3 column table.-->
-<table width="100%"  border="0" cellpadding="0" style="background-color: #CCCCCC">
-  <tr>
-    <th scope="col">&nbsp;</th>
-      <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:100px">&nbsp;</th>
-	   <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:80px"><a href="http://validator.w3.org/check?uri=http://divinux.github.io/"><img src="images/but_w3_dark.png" onmouseover="this.src='images/but_w3_lit.png'" onmouseout="this.src='images/but_w3_dark.png'" alt="XHTML1.0 Conform"/></a></th>
-	  <th scope="col" style="width:80px"><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://divinux.github.io/"><img src="images/but_css_dark.png" onmouseover="this.src='images/but_css_lit.png'" onmouseout="this.src='images/but_css_dark.png'" alt="CSS3 Conform"/></a></th>
-	  <th scope="col" style="width:80px"><a href="https://twitter.com/divinux"><img src="images/but_twitter_dark.png" onmouseover="this.src='images/but_twitter_lit.png'" onmouseout="this.src='images/but_twitter_dark.png'" alt="Twitter"/></a></th>
-	  <th scope="col" style="width:80px"><a href="https://github.com/Divinux"><img src="images/but_git_dark.png" onmouseover="this.src='images/but_git_lit.png'" onmouseout="this.src='images/but_git_dark.png'" alt="GitHub"/></a></th>
-	  <th scope="col" style="width:80px"><a href="http://forum.unity3d.com/members/divinux.52809/"><img src="images/but_unity_dark.png" onmouseover="this.src='images/but_unity_lit.png'" onmouseout="this.src='images/but_unity_dark.png'" alt="Unity Forum"/></a></th>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
-
-</body>
+				u.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$brokenScreen.show();
+						break;
+						case "missing":
+							$missingScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$missingScreen.show();
+						break;
+						case "installed":
+							$missingScreen.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				u.initPlugin(jQuery("#unityPlayer")[0], "IdleTower.unity3d");
+			});
+		-->
+		</script>
+		<style type="text/css">
+		<!--
+		body {
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+			background-color: white;
+			color: black;
+			text-align: center;
+		}
+		a:link, a:visited {
+			color: #000;
+		}
+		a:active, a:hover {
+			color: #666;
+		}
+		p.header {
+			font-size: small;
+		}
+		p.header span {
+			font-weight: bold;
+		}
+		p.footer {
+			font-size: x-small;
+		}
+		div.content {
+			margin: auto;
+			width: 900px;
+		}
+		div.broken,
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 193px;
+		}
+		div.broken a,
+		div.missing a {
+			height: 63px;
+			position: relative;
+			top: -31px;
+		}
+		div.broken img,
+		div.missing img {
+			border-width: 0px;
+		}
+		div.broken {
+			display: none;
+		}
+		div#unityPlayer {
+			cursor: default;
+			height: 600px;
+			width: 900px;
+		}
+		-->
+		</style>
+	</head>
+	<body>
+		<p class="header"><span>Unity Web Player | </span>IdleTower</p>
+		<div class="content">
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+	</body>
 </html>
