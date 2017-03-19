@@ -1,144 +1,102 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal work portfolio">
+    <meta name="author" content="Artem Kut">
+    <link rel="icon" href="images/logo.ico">
+	<title>Artem Kutyepov</title>
 
-<head>
-	<title>Divinux</title>
-	<meta http-equiv="content-type" content = "text/html;charset=utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/w3.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <br>
+	  <br>
+	  <br>
+	   <br>
+	  <br>
+	  <br>
+	   <br>
+	  <br>
+	  <br>
+	  <h1 class="w3-center w3-animate-opacity">
+  <img src="images/logo.png" class="w3-round-large" alt="LOGO">
+  </h1>
+ <h1 class="w3-center w3-animate-opacity w3-text-white">
+ Artem Kutyepov
+  </h1>
+  <h5 class="w3-center w3-animate-opacity w3-text-white">
+ Full-stack developer 2D/3D Artist
+ <br><br><br><br><br><br>
+ 
+  </h5>
+
+    </div> <!-- /container -->
 	
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'/>
-	
-	<style type="text/css">
-<!--
-body
-{
-margin:0;
-padding:0;
-text-align:center;
-}
-body,td,th 
-{
-	font-family: "Yanone Kaffeesatz", "Open Sans", sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-}
- table.center 
- {
-    margin-left:auto; 
-    margin-right:auto;
-  }
-#bottomshadow,  #bottomshadow2{
-    background-image: url("images/bgLine.png");
-}
-#upshadow {
-    background-image: url("images/bg_LineBot.png");
-}
-#rightshadow {
-    background-image: url("images/bg_lineRight.png");
-	width:20px;
-}
-#botrightshadow {
-    background-image: url("images/bg_bottomright.png");
-}
--->
-</style>
+	 <div class="container">
 
-</head>
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+      </div>
 
-<body>
-
-     <!--..upper 3 column table.-->
-<table width="100%" border="0" cellpadding="0" style="background-color: #CCCCCC" >
-  <tr>
-    <th scope="col">&nbsp;</th>
-    <th scope="col" style="width:400px"><a href="index.html"><img src="images/logo.png" width="400" height="150" alt="logo_Divinux.tk" /></a></th>
-    <th scope="col" style="width:100px"><a href="2dart.html"><img src="images/but_2d_dark.png" onmouseover="this.src='images/but_2d_lit.png'" onmouseout="this.src='images/but_2d_dark.png'" alt="2D_Art"/></a></th>
-    <th scope="col" style="width:100px"><a href="3dart.html"><img src="images/but_3d_dark.png" onmouseover="this.src='images/but_3d_lit.png'" onmouseout="this.src='images/but_3d_dark.png'" alt="3D_Art"/></a></th>
-    <th scope="col" style="width:100px"><a href="source.html"><img src="images/but_source_dark.png" onmouseover="this.src='images/but_source_lit.png'" onmouseout="this.src='images/but_source_dark.png'" alt="Source"/></a></th>
-    <th scope="col" style="width:100px"><a href="contact.html"><img src="images/but_contact_dark.png" onmouseover="this.src='images/but_contact_lit.png'" onmouseout="this.src='images/but_contact_dark.png'" alt="Contact"/></a></th>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
-
-<!--..upper 1 column table.-->
-<table width="100%" border="0" cellpadding="0" id="bottomshadow">
- <tr>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
+    </div> <!-- /container -->
 
 
-<!--.content table-->
-<table width="800" border="0" cellpadding="0" cellspacing="0" class="center">
-<tr>
-    <td><table width="800" border="0" cellpadding="1" cellspacing="1" style="background-color: #CCCCCC">
-      <tr>
-        <td><table width="800" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF">
-          <tr>
-            <td>
-			
-				<p>&nbsp;</p>
-				<!--.inside table-->
-				<table width="780" border="0" cellspacing="0" cellpadding="0" class="center">
-				  <tr>
-				  
-				    <th scope="row"><a href="2dart.html"><img src="images/big2dart.png" width="380" height="200" alt="2dArt" /></a></th>
-				    <td style=" text-align: right"><a href="2dart.html"><img src="images/big3dart.png" width="380" height="200" alt="3dArt" /></a></td>
-					
-				    </tr>
-					  <tr>
-				  
-				    <th scope="row"></th>
-				    <td style=" text-align: right"></td>
-					
-				    </tr>
-				  <tr>
-				  
-				    <th scope="row"><a href="source.html"><img src="images/big_source.png" width="380" height="200" alt="SourceCode" /></a></th>
-				    <td style=" text-align: right"><a href="contact.html"><img src="images/big_contact.png" width="380" height="200" alt="Contact" /></a></td>
-					
-				    </tr>
-				  </table>
-				 
-				<p>&nbsp;</p>
-			</td>
-          </tr>
-        </table></td>
-      </tr>
-    </table></td>
-    <td id = "rightshadow">&nbsp;</td>
-  </tr>
-  <tr>
-    <td id = "bottomshadow2">&nbsp;</td>
-    <td id = "botrightshadow">&nbsp;</td>
-  </tr>
-</table>
-
-
-<!--..bottom 1 column table.-->
-
-<table width="100%" border="0" cellpadding="0" id = "upshadow">
-  <tr>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
- <!--..bottom 3 column table.-->
-<table width="100%"  border="0" cellpadding="0" style="background-color: #CCCCCC">
-  <tr>
-    <th scope="col">&nbsp;</th>
-      <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:100px">&nbsp;</th>
-	   <th scope="col" style="width:100px">&nbsp;</th>
-	  <th scope="col" style="width:80px"><a href="http://validator.w3.org/check?uri=http://divinux.github.io/"><img src="images/but_w3_dark.png" onmouseover="this.src='images/but_w3_lit.png'" onmouseout="this.src='images/but_w3_dark.png'" alt="XHTML1.0 Conform"/></a></th>
-	  <th scope="col" style="width:80px"><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://divinux.github.io/"><img src="images/but_css_dark.png" onmouseover="this.src='images/but_css_lit.png'" onmouseout="this.src='images/but_css_dark.png'" alt="CSS3 Conform"/></a></th>
-	  <th scope="col" style="width:80px"><a href="https://twitter.com/divinux"><img src="images/but_twitter_dark.png" onmouseover="this.src='images/but_twitter_lit.png'" onmouseout="this.src='images/but_twitter_dark.png'" alt="Twitter"/></a></th>
-	  <th scope="col" style="width:80px"><a href="https://github.com/Divinux"><img src="images/but_git_dark.png" onmouseover="this.src='images/but_git_lit.png'" onmouseout="this.src='images/but_git_dark.png'" alt="GitHub"/></a></th>
-	  <th scope="col" style="width:80px"><a href="http://forum.unity3d.com/members/divinux.52809/"><img src="images/but_unity_dark.png" onmouseover="this.src='images/but_unity_lit.png'" onmouseout="this.src='images/but_unity_dark.png'" alt="Unity Forum"/></a></th>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
-
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+  </body>
 </html>
