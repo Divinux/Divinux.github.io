@@ -13,10 +13,10 @@ html,body {
 	line-height : 1.5;
 	
 	background-color: #4a352b;
-	background-image: url("../images/overlay.png"), url("../images/pt.png"), -moz-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
-	background-image: url("../images/overlay.png"), url("../images/pt.png"), -webkit-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
-	background-image: url("../images/overlay.png"), url("../images/pt.png"), -ms-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
-	background-image: url("../images/overlay.png"), url("../images/pt.png"), linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
+	background-image: url("../images/ol.png"), url("../images/pt.png"), -moz-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
+	background-image: url("../images/ol.png"), url("../images/pt.png"), -webkit-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
+	background-image: url("../images/ol.png"), url("../images/pt.png"), -ms-linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
+	background-image: url("../images/ol.png"), url("../images/pt.png"), linear-gradient(45deg, #4a352b 15%, #251f1d 85%);
 	
 	
   -webkit-text-size-adjust: 100%;
